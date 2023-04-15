@@ -7,6 +7,9 @@
 
 .main {
   flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer {
@@ -25,4 +28,35 @@
   text-transform: uppercase;
   font-size: 3.5rem;
   text-align: center;
+}
+
+.image-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.images-wrapper {
+  flex-basis: 60%;
+  /* max-width: 60%; */
+}
+
+.images-block {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  list-style-type: none;
+}
+
+/* .images-block li {
+  /* list-style: none; */
+/* width: 100%; */
+/* } */
+
+.picture {
+  max-width: 100%;
+}
+
+.navigation-block {
+  flex-basis: 30%;
 }
