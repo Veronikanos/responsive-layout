@@ -10,13 +10,108 @@
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <header>
-      <h1>Header</h1>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">Header</h1>
     </header>
-    <main>
-      <section class="image-list">images</section>
+    <main class="main">
+      <section class="image-list">
+        <div class="images-block">
+          <ul>
+            <li id="#first-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+            <li id="#second-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+            <li id="#third-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+            <li id="#fourth-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+            <li id="#fifth-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+            <li id="#sixth-picture">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/large-image.jpg" />
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./assets/images/medium-image.jpg" />
+                <img
+                  src="./assets/images/small-image.jpg"
+                  alt="Cat Kotlin" />
+              </picture>
+            </li>
+          </ul>
+        </div>
+        <div class="navigation-block">
+          <ul>
+            <li><a href="#first-picture">Item 1</a></li>
+            <li><a href="#second-picture">Item 2</a></li>
+            <li><a href="#third-picture">Item 3</a></li>
+            <li><a href="#fourth-picture">Item 4</a></li>
+            <li><a href="#fifth-picture">Item 5</a></li>
+            <li><a href="#sixth-picture">Item 6</a></li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer>Footer</footer>
+    <footer class="footer">
+      <h2 class="footer__title">Footer</h2>
+    </footer>
   </body>
 </html>
